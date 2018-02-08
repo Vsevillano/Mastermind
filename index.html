@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>	
+    <script src="js/jqueryUI/jquery-ui.js"></script>
+    <link rel="stylesheet" href="js/jqueryUI/jquery-ui.css">
+    <script src="js/index.js"></script>
+    <script src="js/gui.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div>
+            <h1 id="tituloWeb">MasterMind</h1>
+        </div>
+    </header>
+    
+    <main>
+        <div id="container">
+            <div id="containerLeft">
+                <div id="containerIntento">
+                    <div class="containerIntentoColores">
+                        <div class="circleIntentoColor"></div>
+                        <div class="circleIntentoColor"></div>
+                        <div class="circleIntentoColor"></div>
+                        <div class="circleIntentoColor"></div>
+                        
+                        <div class="circleEstadoColor"></div>
+                        <div class="circleEstadoColor"></div>
+                        <div class="circleEstadoColor"></div>
+                        <div class="circleEstadoColor"></div>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="containerRight">
+                <div id="containerEleccionColor">
+                    <div class="colorEleccion" id="CE-rojo"></div>
+                    <div class="colorEleccion" id="CE-blanco"></div>
+                    <div class="colorEleccion" id="CE-negro"></div>
+                    <div class="colorEleccion" id="CE-amarillo"></div>
+                    <div class="colorEleccion" id="CE-naranja"></div>
+                    <div class="colorEleccion" id="CE-marron"></div>
+                    <div class="colorEleccion" id="CE-azul"></div>
+                    <div class="colorEleccion" id="CE-verde"></div>
+                </div>
+                <button id="btn-checkColores">Comprobar</button>
+            </div>
+                   
+        </div>
+        <div id="dialog-confirm" title="Mastermind">
+            <p>HAS GANADO!!</p>
+        </div> 
+        
+    </main>
+    <footer>
+        <p>Diseño por Victoriano Sevillano Vega</p>
+    </footer>
+</body>
+</html>
